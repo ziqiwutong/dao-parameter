@@ -27,6 +27,7 @@ public class MyTest {
         List<student> students2 = dao.selectByPosition("小鲁班","654.com");
 
         System.out.println("查询的结果=" + student);
+        System.out.println("hot-fix的git测试");
         //关闭SqlSession对象
         session.close();
     }
