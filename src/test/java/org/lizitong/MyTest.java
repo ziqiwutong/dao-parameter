@@ -30,6 +30,7 @@ public class MyTest {
         System.out.println("master的git测试" + student);
         System.out.println("hot-fix的git测试");
         System.out.println("push的git测试");
+        System.out.println("pull的git测试");
         //关闭SqlSession对象
         session.close();
     }
